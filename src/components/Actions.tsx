@@ -88,6 +88,7 @@ export const SelectedShapeActions = ({
           targetElements.some((element) => hasStrokeColor(element.type))) &&
           renderAction("changeStrokeColor")}
       </div>
+      <div>sb</div>
       {showChangeBackgroundIcons && (
         <div>{renderAction("changeBackgroundColor")}</div>
       )}
